@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="logo2cc",
-    version="0.1.0",
+    version="0.1.5",
     author="Piyush Acharya",
     author_email="verisimilitude11@outlook.com",
     description="Convert images to black and white (no gray) to use as custom logos on Stripe credit cards.",
