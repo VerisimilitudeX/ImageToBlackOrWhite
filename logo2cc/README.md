@@ -9,13 +9,13 @@ A PyPi library to convert images to black and white (no gray) to use as custom l
 1. Clone this repository or download the files.
 2. In the same directory as `setup.py`, run:
    ```bash
-   pip install .
+   pip install logo2cc
    ```
 
    or to install in editable mode:
 
    ```bash
-   pip install -e .
+   pip install -e logo2cc
    ```
 
 ## Usage
@@ -34,7 +34,7 @@ convert_to_black_and_white("input_image.png", "output_image.png", threshold=128)
 1. **Install**  
    In your terminal, change directory (`cd`) into the location of `setup.py`, then run:
    ```bash
-   pip install .
+   pip install logo2cc
    ```
 
 2. **Import and Call**  
