@@ -1,6 +1,6 @@
 # logo2cc
 
-A PyPi library to convert images to black and white (no gray) to use as custom logos on Stripe credit cards. 
+logo2cc is a Python library for converting images to black and white (no gray) for use as custom logos on Stripe credit cards. 
 
 **Processing Pipeline:** Applies a slight Gaussian blur, resizes it to fit a maximum dimension of 1000×200 pixels, and centers it on a white canvas.
 
