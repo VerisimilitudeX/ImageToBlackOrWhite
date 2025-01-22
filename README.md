@@ -1,4 +1,4 @@
-# logo2Stripe
+# logo2cc
 
 A PyPi library to convert images to black and white (no gray) to use as custom logos on Stripe credit cards. 
 
@@ -21,7 +21,7 @@ A PyPi library to convert images to black and white (no gray) to use as custom l
 ## Usage
 
 ```py
-from logo2Stripe.converter import convert_to_black_and_white
+from logo2cc.converter import convert_to_black_and_white
 
 # Convert an image to black & white and save it
 convert_to_black_and_white("input_image.png", "output_image.png", threshold=128)
@@ -40,7 +40,7 @@ convert_to_black_and_white("input_image.png", "output_image.png", threshold=128)
 2. **Import and Call**  
    In your Python script or REPL:
     ```py
-    from logo2Stripe.converter import convert_to_black_and_white
+    from logo2cc.converter import convert_to_black_and_white
 
     convert_to_black_and_white("input.png", "output.png", threshold=128)
     ```
