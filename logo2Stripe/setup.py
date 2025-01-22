@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="img2bow",
+    name="logo2Stripe",
     version="0.1.0",
     author="Piyush Acharya",
     author_email="verisimilitude11@outlook.com",
     description="Convert images to black and white (no gray) to use as custom logos on Stripe credit cards.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/VerisimilitudeX/img2bow",
+    url="https://github.com/VerisimilitudeX/logo2Stripe",
     packages=setuptools.find_packages(),
     install_requires=[
         "Pillow"
