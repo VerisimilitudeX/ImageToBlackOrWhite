@@ -27,6 +27,8 @@ from logo2cc.converter import convert_to_black_and_white
 convert_to_black_and_white("input_image.png", "output_image.png", threshold=128)
 ```
 
+Real-world demo: https://github.com/VerisimilitudeX/logo2cc-demo
+
 ---
 
 ## How to Install and Use
